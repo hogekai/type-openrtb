@@ -10,6 +10,9 @@
     },
     "./v26": {
       "types": "./src/v26/index.d.ts"
+    },
+    "./v30": {
+      "types": "./src/v30/index.d.ts"
     }
   },
   "keywords": [
