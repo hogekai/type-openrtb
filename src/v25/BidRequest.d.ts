@@ -7,6 +7,7 @@ import { ConnectionType } from "iab-adcom";
 import { IPLocationService } from "iab-adcom";
 import { VolumeNormalizationMode } from "iab-adcom";
 import { ContentContext } from "iab-adcom";
+import { MediaRating } from "iab-adcom";
 import { ProductionQuality } from "iab-adcom";
 import { FeedType } from "iab-adcom";
 import { LocationType } from "iab-adcom";
@@ -421,7 +422,7 @@ export interface Content {
   /** User rating of the content */
   userrating?: string;
   /** Media rating per IQG guidelines */
-  qagmediarating?: ImageSmoothingQuality;
+  qagmediarating?: MediaRating;
   /** Comma separated list of keywords describing the content */
   keywords?: string;
   /** Indicates if content is live */
