@@ -7,6 +7,9 @@
   "exports": {
     "./v25": {
       "types": "./src/v25/index.d.ts"
+    },
+    "./v26": {
+      "types": "./src/v26/index.d.ts"
     }
   },
   "keywords": [
