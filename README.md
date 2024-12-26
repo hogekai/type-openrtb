@@ -32,7 +32,7 @@ import { Request, Response } from "iab-openrtb/v30";
 Using enums:
 
 ```typescript
-import { NoBidReasonCode } from "iab-openrtb/v30/enum";
+import { NoBidReasonCode } from "iab-openrtb/v30";
 ```
 
 ## Structure
