@@ -42,7 +42,6 @@ The package consists of the following modules:
 - `iab-openrtb/v25`: Type definitions for OpenRTB 2.5
 - `iab-openrtb/v26`: Type definitions for OpenRTB 2.6
 - `iab-openrtb/v30`: Type definitions for OpenRTB 3.0
-- `iab-openrtb/v30/enum`: Enum definitions
 
 ## Requirements
 
