@@ -9,15 +9,15 @@ importers:
   .:
     devDependencies:
       iab-adcom:
-        specifier: ^0.1.4
-        version: 0.1.4
+        specifier: ^0.1.5
+        version: 0.1.5
 
 packages:
 
-  iab-adcom@0.1.4:
-    resolution: {integrity: sha512-ZzeU1UCtGWO6K81VLnGDMg7zYdSRie08aXJ1kSl2krtbXEJnbvhyW7CboutBNd/GvE52J3rpkSSVXOaDkLJCeg==}
+  iab-adcom@0.1.5:
+    resolution: {integrity: sha512-y4qeyEZrdM6BZCUUcDa3dgCC+fjHES99ufP+Odxutbvgr5IPxvsN+BRrNW3UX7XEDeLHrw2ADtNzC27zYRNlMQ==}
     engines: {node: '>=14.0.0'}
 
 snapshots:
 
-  iab-adcom@0.1.4: {}
+  iab-adcom@0.1.5: {}

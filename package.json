@@ -50,6 +50,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "iab-adcom": "^0.1.4"
+    "iab-adcom": "^0.1.5"
   }
 }
