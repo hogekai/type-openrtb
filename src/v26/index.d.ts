@@ -200,3 +200,5 @@ export interface BidResponse {
 }
 
 export * from "../v30/enum";
+export * from "./BidRequest";
+export * from "./BidResponse";

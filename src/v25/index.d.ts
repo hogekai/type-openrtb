@@ -149,3 +149,5 @@ export interface BidResponse {
 }
 
 export * from "./enum";
+export * from "./BidRequest";
+export * from "./BidResponse";

@@ -1,6 +1,6 @@
 # iab-openrtb
 
-TypeScript type definitions for IAB Tech Lab's OpenRTB (Open Real Time Bidding)
+TypeScript type definitions for IAB Tech Lab's OpenRTB (Open Real-Time Bidding) specification
 
 ## Overview
 
@@ -32,8 +32,15 @@ import { Request, Response } from "iab-openrtb/v30";
 Using enums:
 
 ```typescript
-import { NoBidReasonCode } from "iab-openrtb/v30";
+// OpenRTB v2.5
+import { NoBidReasonCode, LossReasonCode } from "iab-openrtb/v25";
+// OpenRTB v2.6
+import { NoBidReasonCode, LossReasonCode } from "iab-openrtb/v26";
+// OpenRTB v3.0
+import { NoBidReasonCode, LossReasonCode } from "iab-openrtb/v30";
 ```
+
+Note: Currently only NoBidReasonCode and LossReasonCode enums are supported. Other enums are defined in the iab-adcom package.
 
 ## Structure
 
