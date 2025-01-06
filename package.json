@@ -1,12 +1,12 @@
 {
   "name": "iab-openrtb",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "TypeScript definitions for IAB Tech Lab's OpenRTB (Open Real Time Bidding)",
   "types": "src/index.d.ts",
   "typings": "src/index.d.ts",
   "exports": {
     "./v25": "./src/v25/index.d.ts",
-    "./v26":  "./src/v26/index.d.ts",
+    "./v26": "./src/v26/index.d.ts",
     "./v30": "./src/v30/index.d.ts"
   },
   "keywords": [
