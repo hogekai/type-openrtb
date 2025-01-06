@@ -5,15 +5,9 @@
   "types": "src/index.d.ts",
   "typings": "src/index.d.ts",
   "exports": {
-    "./v25": {
-      "types": "./src/v25/index.d.ts"
-    },
-    "./v26": {
-      "types": "./src/v26/index.d.ts"
-    },
-    "./v30": {
-      "types": "./src/v30/index.d.ts"
-    }
+    "./v25": "./src/v25/index.d.ts",
+    "./v26":  "./src/v26/index.d.ts",
+    "./v30": "./src/v30/index.d.ts"
   },
   "keywords": [
     "OpenRTB",
