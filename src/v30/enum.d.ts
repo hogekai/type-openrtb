@@ -2,7 +2,7 @@
  * OpenRTB No-Bid Reason Codes
  * Signals why a bidder did not offer a bid for the item
  */
-export enum NoBidReasonCode {
+export const enum NoBidReasonCode {
   UNKNOWN_ERROR = 0,
   TECHNICAL_ERROR = 1,
   INVALID_REQUEST = 2,
@@ -28,7 +28,7 @@ export enum NoBidReasonCode {
  * OpenRTB Loss Reason Codes
  * Informs a bidder why they did not win an item
  */
-export enum LossReasonCode {
+export const enum LossReasonCode {
   // Standard Results
   BID_WON = 0,
   INTERNAL_ERROR = 1,
