@@ -1,4 +1,4 @@
-import { CreativeAttribute } from "iab-adcom";
+import { CreativeAttribute, DOOHVenueType } from "iab-adcom";
 import { DeliveryMethod } from "iab-adcom";
 import { APIFramework } from "iab-adcom";
 import { PodDeduplicationSetting } from "iab-adcom";
@@ -845,8 +845,11 @@ export interface DOOH {
   /** DOOH placement name */
   name?: string;
   /** Out-of-home venue type */
-  venuetype?: string[];
-  /** Venue taxonomy in use */
+  venuetype?: DOOHVenueType[];
+  /** 
+   * Venue taxonomy in use 
+   * @default 1
+   **/
   venuetypetax?: DOOHVenueTaxonomy;
   /** Publisher details */
   publisher?: Publisher;
