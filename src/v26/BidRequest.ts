@@ -845,7 +845,7 @@ export interface DOOH {
   /** DOOH placement name */
   name?: string;
   /** Out-of-home venue type */
-  venuetype?: DOOHVenueType[];
+  venuetype?: string[];
   /** 
    * Venue taxonomy in use 
    * @default 1
