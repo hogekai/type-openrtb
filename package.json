@@ -35,7 +35,7 @@
   "homepage": "https://github.com/hogekai/types-iab-openrtb#readme",
   "license": "MIT",
   "files": [
-    "src/",
+    "dist/",
     "README.md",
     "LICENSE"
   ],
