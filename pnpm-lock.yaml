@@ -9,15 +9,25 @@ importers:
   .:
     devDependencies:
       iab-adcom:
-        specifier: ^0.1.5
-        version: 0.1.5
+        specifier: ^0.1.7
+        version: 0.1.7
+      typescript:
+        specifier: ^5.7.2
+        version: 5.7.2
 
 packages:
 
-  iab-adcom@0.1.5:
-    resolution: {integrity: sha512-y4qeyEZrdM6BZCUUcDa3dgCC+fjHES99ufP+Odxutbvgr5IPxvsN+BRrNW3UX7XEDeLHrw2ADtNzC27zYRNlMQ==}
+  iab-adcom@0.1.7:
+    resolution: {integrity: sha512-or8d87A39UKESaS0JpEkHLLDUfjKQES5dsLWlgNgsO8Fe3K6H1vc1o3WVlyeb0Z5qH/ckZsMU6+fKMtJ4drFQQ==}
     engines: {node: '>=14.0.0'}
+
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
 
 snapshots:
 
-  iab-adcom@0.1.5: {}
+  iab-adcom@0.1.7: {}
+
+  typescript@5.7.2: {}
