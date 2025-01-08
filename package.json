@@ -45,17 +45,17 @@
   "publishConfig": {
     "access": "public",
     "exports": {
-      "v25": {
+      "./v25": {
         "import": "./dist/v25/index.js",
         "require": "./dist/v25/index.js",
         "types": "./dist/v25/index.d.ts"
       },
-      "v26": {
+      "./v26": {
         "import": "./dist/v26/index.js",
         "require": "./dist/v26/index.js",
         "types": "./dist/v26/index.d.ts"
       },
-      "v30": {
+      "./v30": {
         "import": "./dist/v30/index.js",
         "require": "./dist/v30/index.js",
         "types": "./dist/v30/index.d.ts"
