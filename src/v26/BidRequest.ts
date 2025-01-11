@@ -40,7 +40,7 @@ export interface Source {
   /** Payment ID chain string */
   pchain?: string;
   /** Supply chain object containing supply chain and completion status */
-  schain?: Record<string, unknown>;
+  schain?: SupplyChain;
   /** Placeholder for exchange-specific extensions */
   ext?: Record<string, unknown>;
 }
