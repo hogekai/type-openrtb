@@ -2,13 +2,8 @@
   "name": "iab-openrtb",
   "version": "0.4.0",
   "description": "TypeScript definitions for IAB Tech Lab's OpenRTB (Open Real Time Bidding)",
-  "exports": {
-    "./v25": "./src/v25/index.ts",
-    "./v26": "./src/v26/index.ts",
-    "./v30": "./src/v30/index.ts"
-  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -46,17 +41,17 @@
     "access": "public",
     "exports": {
       "./v25": {
-        "import": "./dist/v25/index.js",
+        "import": "./dist/v25/index.mjs",
         "require": "./dist/v25/index.js",
         "types": "./dist/v25/index.d.ts"
       },
       "./v26": {
-        "import": "./dist/v26/index.js",
+        "import": "./dist/v26/index.mjs",
         "require": "./dist/v26/index.js",
         "types": "./dist/v26/index.d.ts"
       },
       "./v30": {
-        "import": "./dist/v30/index.js",
+        "import": "./dist/v30/index.mjs",
         "require": "./dist/v30/index.js",
         "types": "./dist/v30/index.d.ts"
       }
@@ -64,6 +59,7 @@
   },
   "devDependencies": {
     "iab-adcom": "^0.1.7",
+    "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   }
 }
